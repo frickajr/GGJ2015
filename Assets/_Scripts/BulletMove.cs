@@ -5,19 +5,20 @@ public class BulletMove : MonoBehaviour
 {
 	public GameObject owner;
 	public GameObject particle;
-	public float alphaTime;
+	public float alphaTime, speed;
 
 	// Use this for initialization
 	void Start () 
 	{
 		alphaTime = 5;
+		speed = 15f;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		Death();
-		transform.Translate(Vector3.forward * 5f * Time.deltaTime);
+		transform.Translate(Vector3.forward * speed * Time.deltaTime);
 	}
 
 	void Death()
@@ -45,10 +46,10 @@ public class BulletMove : MonoBehaviour
 			Vector3 t_vec = col.GetComponentInChildren<Transform>().transform.position;
 			Debug.Log(t_vec + col.name);
 
-			if(t_vec.y >= 1.0f)
+			//if(t_vec.y >= 1.0f)
 			{
 				DestroyObject(col.gameObject);
-				t_vec.y += 5f;
+				//t_vec.y += 5f;
 				Instantiate(particle, t_vec, Quaternion.identity);
 				DestroyObject(this.gameObject);
 			}
