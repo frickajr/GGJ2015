@@ -4,10 +4,12 @@ using System.Collections;
 public class BulletMove : MonoBehaviour 
 {
 	public GameObject owner;
+	public float alphaTime;
+
 	// Use this for initialization
 	void Start () 
 	{
-		
+		alphaTime = 5;
 	}
 	
 	// Update is called once per frame
@@ -19,10 +21,20 @@ public class BulletMove : MonoBehaviour
 
 	void Death()
 	{
-		if(owner != null)
-			if (Vector3.Distance(owner.transform.position, this.transform.position)
-					>= 100)
-				DestroyObject(this.gameObject);
+		if (renderer.material.color.a <= 0.0f)
+			DestroyObject(gameObject);
+
+		//Loop do crescimento e da alteração do alfa
+		if (alphaTime < 0)
+		{
+			renderer.material.color = new Color(renderer.material.color.r,
+									renderer.material.color.g, renderer.material.color.b,
+									renderer.material.color.a - 0.5f * Time.deltaTime);
+		}
+		else
+		{
+			alphaTime -= 5f * Time.deltaTime;
+		}
 	}
 
 	void OnTriggerEnter(Collider col)
