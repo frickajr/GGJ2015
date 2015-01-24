@@ -4,6 +4,7 @@ using System.Collections;
 public class Shoot : MonoBehaviour
 {
 	public GameObject m_bullet;
+
 	public float shootTime = 5;
 
 	// Use this for initialization
@@ -27,7 +28,7 @@ public class Shoot : MonoBehaviour
 		}
 		else
 		{
-			shootTime -= (Time.deltaTime * 5f);
+			shootTime -= (Time.deltaTime * 10f);
 		}
 	}
 }

@@ -4,6 +4,7 @@ using System.Collections;
 public class BulletMove : MonoBehaviour 
 {
 	public GameObject owner;
+	public GameObject particle;
 	public float alphaTime;
 
 	// Use this for initialization
@@ -39,9 +40,26 @@ public class BulletMove : MonoBehaviour
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.tag == "obj")
+		if(col.tag == "dpn")
 		{
+			Vector3 t_vec = col.GetComponentInChildren<Transform>().transform.position;
+			Debug.Log(t_vec + col.name);
+
+			if(t_vec.y >= 1.0f)
+			{
+				DestroyObject(col.gameObject);
+				t_vec.y += 5f;
+				Instantiate(particle, t_vec, Quaternion.identity);
+				DestroyObject(this.gameObject);
+			}
+		}
+
+		if(col.tag == "cog")
+		{
+			Vector3 t_vec = col.transform.position;
 			DestroyObject(col.gameObject);
+			t_vec.y += 5f;
+			Instantiate(particle, t_vec, Quaternion.identity);
 			DestroyObject(this.gameObject);
 		}
 	}
