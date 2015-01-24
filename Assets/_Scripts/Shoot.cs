@@ -17,16 +17,17 @@ public class Shoot : MonoBehaviour
 	{
 		if(shootTime <= 0)
 		{
-			if(Input.GetKey(KeyCode.Space))
+			if(Input.anyKey)
 			{
 				Instantiate(m_bullet, this.transform.position, 
 											GetComponentInParent<Transform>().transform.rotation);
-				shootTime = 10;
+				m_bullet.GetComponent<BulletMove>().owner = this.gameObject;
+				shootTime = 5;
 			}
 		}
 		else
 		{
-			shootTime -= (Time.deltaTime * 10f);
+			shootTime -= (Time.deltaTime * 5f);
 		}
 	}
 }
