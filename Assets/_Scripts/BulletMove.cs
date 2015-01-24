@@ -39,6 +39,10 @@ public class BulletMove : MonoBehaviour
 
 	void OnTriggerEnter(Collider col)
 	{
-		Debug.Log("Colidiu");
+		if(col.tag == "obj")
+		{
+			DestroyObject(col.gameObject);
+			DestroyObject(this.gameObject);
+		}
 	}
 }
