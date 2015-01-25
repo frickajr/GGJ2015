@@ -5,6 +5,7 @@ public class BulletMove : MonoBehaviour
 {
 	public GameObject owner;
 	public GameObject particle;
+	public GameObject groundParticle;
 	public float alphaTime, speed;
 
 	// Use this for initialization
@@ -49,8 +50,14 @@ public class BulletMove : MonoBehaviour
 		if (col.tag == "obj")
 		{
 			//DestroyObject(col.gameObject);
-            col.transform.position = new Vector3(col.transform.position.x, col.transform.position.y, -60);
+      col.transform.position = new Vector3(col.transform.position.x, col.transform.position.y, -60);
 			Instantiate(particle, transform.position, Quaternion.identity);
+			DestroyObject(gameObject);
+		}
+		if(col.tag == "merda")
+		{
+			DestroyObject(col.gameObject);
+			Instantiate(groundParticle, col.transform.position, Quaternion.identity);
 			DestroyObject(gameObject);
 		}
 	}
