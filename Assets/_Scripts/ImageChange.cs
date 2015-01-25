@@ -4,12 +4,10 @@ using System.Collections.Generic;
 
 public class ImageChange : MonoBehaviour
 {
-	public GameObject telaAtual;
-	public List<GameObject> scenes;
 	// Use this for initialization
 	void Start()
 	{
-		telaAtual = scenes[0];
+		StartCoroutine("Load");
 	}
 
 	// Update is called once per frame
@@ -17,4 +15,11 @@ public class ImageChange : MonoBehaviour
 	{
 
 	}
+
+	IEnumerator Load()
+	{
+		yield return new WaitForSeconds(8);
+		Application.LoadLevel("rift_move");
+	}
+
 }
