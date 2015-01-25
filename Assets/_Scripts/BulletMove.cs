@@ -49,6 +49,7 @@ public class BulletMove : MonoBehaviour
 		if (col.tag == "obj")
 		{
 			DestroyObject(col.gameObject);
+			//col.transform.position -= Vector3.forward * 100f;
 			Instantiate(particle, transform.position, Quaternion.identity);
 			DestroyObject(this.gameObject);
 		}
