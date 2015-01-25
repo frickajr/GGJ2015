@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 96721619313884f4fbe1caee5ba98f65
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.002
+    100006: Bone.002_L
+    100008: Bone.002_L.001
+    100010: Bone.002_L.002
+    100012: Bone.002_L.003
+    100014: Bone.002_L.005
+    100016: Bone.002_L.005_end
+    100018: Bone.002_R
+    100020: Bone.002_R.001
+    100022: Bone.002_R.002
+    100024: Bone.002_R.003
+    100026: Bone.002_R.004
+    100028: Bone.002_R.004_end
+    100030: Bone.002_R.005
+    100032: Bone.002_R.005_end
+    100034: Bone.003
+    100036: Bone.004
+    100038: Bone.005
+    100040: Bone.005_end
+    100042: Bone.006
+    100044: Bone.007
+    100046: Bone.007_end
+    100048: Cylinder.002
+    100050: Cylinder.003
+    100052: mao
+    100054: mao_end
+    100056: pa
+    100058: Torus
+    100060: vassoura
+    100062: //RootNode
+    100064: vassouram
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.002
+    400006: Bone.002_L
+    400008: Bone.002_L.001
+    400010: Bone.002_L.002
+    400012: Bone.002_L.003
+    400014: Bone.002_L.005
+    400016: Bone.002_L.005_end
+    400018: Bone.002_R
+    400020: Bone.002_R.001
+    400022: Bone.002_R.002
+    400024: Bone.002_R.003
+    400026: Bone.002_R.004
+    400028: Bone.002_R.004_end
+    400030: Bone.002_R.005
+    400032: Bone.002_R.005_end
+    400034: Bone.003
+    400036: Bone.004
+    400038: Bone.005
+    400040: Bone.005_end
+    400042: Bone.006
+    400044: Bone.007
+    400046: Bone.007_end
+    400048: Cylinder.002
+    400050: Cylinder.003
+    400052: mao
+    400054: mao_end
+    400056: pa
+    400058: Torus
+    400060: vassoura
+    400062: //RootNode
+    400064: vassouram
+    2300000: Cylinder.002
+    2300002: Cylinder.003
+    2300004: pa
+    2300006: Torus
+    3300000: Cylinder.002
+    3300002: Cylinder.003
+    3300004: pa
+    3300006: Torus
+    4300000: pa
+    4300002: vassouram
+    4300004: Torus
+    4300006: Cylinder.003
+    4300008: Cylinder.002
+    7400000: vassoura|ATACANDO
+    7400002: vassoura|PARADO
+    7400004: pa|ATACANDO
+    9500000: //RootNode
+    13700000: vassouram
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: vassoura|ATACANDO
+      takeName: vassoura|ATACANDO
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder.002
+        weight: 1
+      - path: Cylinder.003
+        weight: 1
+      - path: Torus
+        weight: 1
+      - path: vassoura
+        weight: 1
+      - path: vassoura/Bone
+        weight: 1
+      - path: vassoura/Bone/Bone.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005/Bone.002_L.005_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005/pa
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/mao
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/mao/mao_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.004
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.004/Bone.002_R.004_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.005
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.005/Bone.002_R.005_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006/Bone.007
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: vassoura/Bone.003
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: vassouram
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: vassoura|PARADO
+      takeName: vassoura|PARADO
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder.002
+        weight: 1
+      - path: Cylinder.003
+        weight: 1
+      - path: Torus
+        weight: 1
+      - path: vassoura
+        weight: 1
+      - path: vassoura/Bone
+        weight: 1
+      - path: vassoura/Bone/Bone.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005/Bone.002_L.005_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005/pa
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/mao
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/mao/mao_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.004
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.004/Bone.002_R.004_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.005
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.005/Bone.002_R.005_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006/Bone.007
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: vassoura/Bone.003
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: vassouram
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: pa|ATACANDO
+      takeName: pa|ATACANDO
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder.002
+        weight: 1
+      - path: Cylinder.003
+        weight: 1
+      - path: Torus
+        weight: 1
+      - path: vassoura
+        weight: 1
+      - path: vassoura/Bone
+        weight: 1
+      - path: vassoura/Bone/Bone.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005/Bone.002_L.005_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/Bone.002_L.005/pa
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/mao
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_L/Bone.002_L.001/Bone.002_L.002/Bone.002_L.003/mao/mao_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.004
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.004/Bone.002_R.004_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.005
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.002_R/Bone.002_R.001/Bone.002_R.002/Bone.002_R.003/Bone.002_R.005/Bone.002_R.005_end
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006/Bone.007
+        weight: 1
+      - path: vassoura/Bone/Bone.001/Bone.002/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: vassoura/Bone.003
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: vassoura/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: vassouram
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

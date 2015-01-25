@@ -11,7 +11,7 @@ public class BulletMove : MonoBehaviour
 	void Start () 
 	{
 		alphaTime = 5;
-		speed = 15f;
+		speed = 20f;
 	}
 	
 	// Update is called once per frame
@@ -41,26 +41,15 @@ public class BulletMove : MonoBehaviour
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.tag == "dpn")
+		if(col.tag == "wall")
 		{
-			Vector3 t_vec = col.GetComponentInChildren<Transform>().transform.position;
-			Debug.Log(t_vec + col.name);
-
-			//if(t_vec.y >= 1.0f)
-			{
-				DestroyObject(col.gameObject);
-				//t_vec.y += 5f;
-				Instantiate(particle, t_vec, Quaternion.identity);
-				DestroyObject(this.gameObject);
-			}
+			DestroyObject(this.gameObject);
 		}
 
-		if(col.tag == "cog")
+		if (col.tag == "obj")
 		{
-			Vector3 t_vec = col.transform.position;
 			DestroyObject(col.gameObject);
-			t_vec.y += 5f;
-			Instantiate(particle, t_vec, Quaternion.identity);
+			Instantiate(particle, transform.position, Quaternion.identity);
 			DestroyObject(this.gameObject);
 		}
 	}
