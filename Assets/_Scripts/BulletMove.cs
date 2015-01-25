@@ -11,7 +11,7 @@ public class BulletMove : MonoBehaviour
 	void Start () 
 	{
 		alphaTime = 5;
-		speed = 20f;
+		speed = 30f;
 	}
 	
 	// Update is called once per frame
