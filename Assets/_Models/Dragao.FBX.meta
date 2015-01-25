@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: b28c3babe0f6bbe45b8105f1506a5784
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone013
+    100020: Bone014
+    100022: Bone015
+    100024: Bone016
+    100026: Bone017
+    100028: Bone018
+    100030: Bone019
+    100032: Bone020
+    100034: Bone021
+    100036: Bone022
+    100038: Bone023
+    100040: Bone024
+    100042: Bone025
+    100044: Bone026
+    100046: Bone027
+    100048: Bone028
+    100050: Bone029
+    100052: Bone030
+    100054: Bone031
+    100056: Bone032
+    100058: Bone033
+    100060: Bone034
+    100062: Bone035
+    100064: Bone036
+    100066: Bone037
+    100068: Bone038
+    100070: Bone039
+    100072: Bone040
+    100074: Bone041
+    100076: Bone042
+    100078: Bone043
+    100080: Bone044
+    100082: Bone045
+    100084: Bone046
+    100086: Bone047
+    100088: Bone048
+    100090: Bone049
+    100092: Bone050
+    100094: Bone051
+    100096: Bone052
+    100098: Bone053
+    100100: Bone054
+    100102: connectBone001
+    100104: connectBone002
+    100106: connectBone003
+    100108: connectBone004
+    100110: connectBone005
+    100112: connectBone006
+    100114: connectBone007
+    100116: Dragao
+    100118: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone013
+    400020: Bone014
+    400022: Bone015
+    400024: Bone016
+    400026: Bone017
+    400028: Bone018
+    400030: Bone019
+    400032: Bone020
+    400034: Bone021
+    400036: Bone022
+    400038: Bone023
+    400040: Bone024
+    400042: Bone025
+    400044: Bone026
+    400046: Bone027
+    400048: Bone028
+    400050: Bone029
+    400052: Bone030
+    400054: Bone031
+    400056: Bone032
+    400058: Bone033
+    400060: Bone034
+    400062: Bone035
+    400064: Bone036
+    400066: Bone037
+    400068: Bone038
+    400070: Bone039
+    400072: Bone040
+    400074: Bone041
+    400076: Bone042
+    400078: Bone043
+    400080: Bone044
+    400082: Bone045
+    400084: Bone046
+    400086: Bone047
+    400088: Bone048
+    400090: Bone049
+    400092: Bone050
+    400094: Bone051
+    400096: Bone052
+    400098: Bone053
+    400100: Bone054
+    400102: connectBone001
+    400104: connectBone002
+    400106: connectBone003
+    400108: connectBone004
+    400110: connectBone005
+    400112: connectBone006
+    400114: connectBone007
+    400116: //RootNode
+    400118: Dragao
+    4300000: Dragao
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Dragao
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/connectBone007
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/connectBone007/Bone013
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/connectBone007/Bone013/Bone014
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006/Bone007/Bone008/Bone009/connectBone007/Bone054
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone001
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone001/Bone028
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone001/Bone028/Bone029
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone001/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone001/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone004
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone004/Bone039
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone004/Bone039/Bone038
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone004/Bone039/Bone038/Bone033
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone004/Bone039/Bone038/Bone033/Bone032
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040/Bone041
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040/Bone041/Bone042
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040/Bone041/Bone042/Bone043
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040/Bone041/Bone042/Bone043/Bone044
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040/Bone041/Bone042/Bone043/Bone044/Bone045
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone005/Bone040/Bone041/Bone042/Bone043/Bone044/Bone045/Bone046
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047/Bone048
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047/Bone048/Bone049
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047/Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047/Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047/Bone048/Bone049/Bone050/Bone051/Bone052
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/connectBone006/Bone047/Bone048/Bone049/Bone050/Bone051/Bone052/Bone053
+        weight: 1
+      - path: Bone001/Bone015
+        weight: 1
+      - path: Bone001/Bone015/Bone016
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017/Bone018
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022
+        weight: 1
+      - path: Bone001/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020/Bone021/Bone022/Bone023
+        weight: 1
+      - path: Bone001/connectBone002
+        weight: 1
+      - path: Bone001/connectBone002/Bone024
+        weight: 1
+      - path: Bone001/connectBone002/Bone024/Bone025
+        weight: 1
+      - path: Bone001/connectBone002/Bone024/Bone025/Bone026
+        weight: 1
+      - path: Bone001/connectBone002/Bone024/Bone025/Bone026/Bone027
+        weight: 1
+      - path: Bone001/connectBone003
+        weight: 1
+      - path: Bone001/connectBone003/Bone035
+        weight: 1
+      - path: Bone001/connectBone003/Bone035/Bone036
+        weight: 1
+      - path: Bone001/connectBone003/Bone035/Bone036/Bone037
+        weight: 1
+      - path: Bone001/connectBone003/Bone035/Bone036/Bone037/Bone034
+        weight: 1
+      - path: Dragao
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
