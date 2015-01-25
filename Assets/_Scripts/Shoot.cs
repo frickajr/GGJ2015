@@ -5,6 +5,8 @@ public class Shoot : MonoBehaviour
 {
 	public GameObject m_bullet;
 
+    public Animator animator;
+
 	public float shootTime = 5;
 
 	// Use this for initialization
@@ -20,10 +22,11 @@ public class Shoot : MonoBehaviour
 		{
 			if(Input.anyKey)
 			{
-				Instantiate(m_bullet, this.transform.position, 
-											GetComponentInParent<Transform>().transform.rotation);
+                animator.SetTrigger("Fire");
+                Instantiate( m_bullet, this.transform.position, 
+							 GetComponentInParent<Transform>().transform.rotation);
 				m_bullet.GetComponent<BulletMove>().owner = this.gameObject;
-				shootTime = 5;
+				shootTime = 5;                
 			}
 		}
 		else
