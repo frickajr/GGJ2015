@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: a911797a186ce64458f523e7b27554af
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Bone
+    100006: Bone 1
+    100008: Bone.001
+    100010: Bone.001 1
+    100012: Bone.002
+    100014: Bone.002 1
+    100016: Bone.003
+    100018: Bone.003 1
+    100020: Bone.004
+    100022: Bone.004 1
+    100024: Bone.005
+    100026: Bone.005 1
+    100028: Bone.005_end
+    100030: Bone.005_end 1
+    100032: //RootNode
+    100034: Cylinder.004
+    100036: Cylinder.005
+    100038: Sun
+    400000: Armature
+    400002: Armature.001
+    400004: Bone
+    400006: Bone 1
+    400008: Bone.001
+    400010: Bone.001 1
+    400012: Bone.002
+    400014: Bone.002 1
+    400016: Bone.003
+    400018: Bone.003 1
+    400020: Bone.004
+    400022: Bone.004 1
+    400024: Bone.005
+    400026: Bone.005 1
+    400028: Bone.005_end
+    400030: Bone.005_end 1
+    400032: //RootNode
+    400034: Cylinder.004
+    400036: Cylinder.005
+    400038: Sun
+    4300000: Cylinder.005
+    4300002: Cylinder.004
+    7400000: Armature.001|COBRA1
+    7400002: Armature.001|COBRA2
+    7400004: Armature|COBRA1
+    7400006: Armature|COBRA2
+    9500000: //RootNode
+    13700000: Cylinder.004
+    13700002: Cylinder.005
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.001|COBRA1
+      takeName: Armature.001|COBRA1
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1/Bone.005_end
+          1
+        weight: 1
+      - path: Armature.001
+        weight: 1
+      - path: Armature.001/Bone 1
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Sun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature.001|COBRA2
+      takeName: Armature.001|COBRA2
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1/Bone.005_end
+          1
+        weight: 1
+      - path: Armature.001
+        weight: 1
+      - path: Armature.001/Bone 1
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Sun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|COBRA1
+      takeName: Armature|COBRA1
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1/Bone.005_end
+          1
+        weight: 1
+      - path: Armature.001
+        weight: 1
+      - path: Armature.001/Bone 1
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Sun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|COBRA2
+      takeName: Armature|COBRA2
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1
+        weight: 1
+      - path: Armature/Bone/Bone.001 1/Bone.002 1/Bone.003 1/Bone.004 1/Bone.005 1/Bone.005_end
+          1
+        weight: 1
+      - path: Armature.001
+        weight: 1
+      - path: Armature.001/Bone 1
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.001/Bone 1/Bone.001/Bone.002/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Sun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
