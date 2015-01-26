@@ -11,8 +11,6 @@ public class PoopMoviment : MonoBehaviour
 	{
 		angInc = Random.Range(50.0f, 70.0f);
 		rotAxis = new Vector3(1, (float)Random.Range(0, 2), (float)Random.Range(0, 2));
-
-		Debug.Log(rotAxis);
 	}
 
 	// Update is called once per frame
